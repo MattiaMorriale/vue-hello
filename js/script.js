@@ -3,9 +3,9 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
-            text: "Hello World",
+            text: "Hello World!",
 
-            img: "https://c0.klipartz.com/pngpicture/8/848/sticker-png-globe-earth-map-of-the-world-miscellaneous-globe-monochrome-world-desktop-wallpaper.png",
+            img: "https://upload.wikimedia.org/wikipedia/commons/8/87/World_map_without_Antarctica.svg",
         }
     }
 }).mount('#app')

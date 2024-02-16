@@ -19,11 +19,13 @@
     <!-- Vue-js -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
-    <div class="container p-5" id="app">
+    <div class="container p-5 d-flex justify-content-center flex-column" id="app">
 
-        <h1>{{text}}</h1>
+        <h1 class="text-center">{{text}}</h1>
 
-        
+        <div class="w-100 d-flex justify-content-center mt-5 ">
+            <img class="img-fluid" :src="img" alt="#">
+        </div>
     
     </div>
 
